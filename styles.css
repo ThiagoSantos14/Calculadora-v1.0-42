@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/wp2729923.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: orange;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        margin-left: 3vh;
+    }
+    
+    span {
+        margin-right: 5vh;
+    }
+}
